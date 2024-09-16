@@ -1,0 +1,39 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.warning_box {
+    
+    padding: 0 10px 0 10px;
+    background-color: orange;
+
+}
+
+.close_box {
+    background-color: blue;
+
+    
+
+}
+
+#close_button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: purple;
+    margin: 1px solid black;
+    font-size: large;
+    font-weight: 600;
+    
+}
+#close_button:hover {
+    cursor: help;
+}
+    
+
+p {
+    text-wrap:wrap
+}
